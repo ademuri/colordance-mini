@@ -1,0 +1,9 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"J1";"Pin_Header_Straight_2x08_Pitch2.54mm";1;"CONN_02X08";;;
+2;"RV5,RV4,RV6,RV1,RV2,RV3";"BOURNS_SLIDE_POT";6;"POT";;;
+3;"REF**,REF**,REF**,REF**";"MountingHole_2.7mm_M2.5";4;"MountingHole_2.7mm_M2.5";;;
+4;"C1,C2,C3,C4,C5,C6,C7,C8,C9";"C_Disc_D5.0mm_W2.5mm_P5.00mm";9;".01uF";;;
+5;"R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16";"R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal";16;"10k";;;
+6;"SW1,SW2,SW3,SW4";"BOURNS_PEC11R_ENCODER";4;"Rotary_Encoder";;;
+7;"C10";"CP_Radial_D5.0mm_P2.00mm";1;"10uF";;;
+8;"REF**";"Pin_Header_Straight_1x02_Pitch2.54mm";1;"Pin_Header_Straight_1x02_Pitch2.54mm";;;
