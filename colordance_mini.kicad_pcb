@@ -2,13 +2,13 @@
 
   (general
     (links 179)
-    (no_connects 170)
-    (area 0 0 0 0)
+    (no_connects 172)
+    (area 26.949999 40.949999 201.050001 164.050001)
     (thickness 1.6)
     (drawings 9)
     (tracks 16)
     (zones 0)
-    (modules 71)
+    (modules 75)
     (nets 103)
   )
 
@@ -486,7 +486,7 @@
   )
 
   (module Capacitors_SMD:C_0603_HandSoldering (layer B.Cu) (tedit 58AA848B) (tstamp 5AC14354)
-    (at 182.5 75)
+    (at 172.5 108)
     (descr "Capacitor SMD 0603, hand soldering")
     (tags "capacitor 0603")
     (path /5A186310)
@@ -630,7 +630,7 @@
   )
 
   (module Capacitors_SMD:C_0603_HandSoldering (layer B.Cu) (tedit 58AA848B) (tstamp 5AC1436C)
-    (at 192.5 75)
+    (at 182.5 108)
     (descr "Capacitor SMD 0603, hand soldering")
     (tags "capacitor 0603")
     (path /5A186332)
@@ -765,7 +765,7 @@
   )
 
   (module homebrew:1985250_phoenix_8pos_3.5mm (layer B.Cu) (tedit 5AC1383D) (tstamp 5AC14397)
-    (at 193.5 71.5 270)
+    (at 194 80 270)
     (path /5ABFB54C)
     (fp_text reference J2 (at -13.5 8.5 270) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -843,7 +843,7 @@
   )
 
   (module homebrew:1985218_phoenix_4pos_3.5mm (layer B.Cu) (tedit 5AC13812) (tstamp 5AC143A7)
-    (at 32.5 161 180)
+    (at 38.5 161 180)
     (path /5ABFF89E)
     (fp_text reference J4 (at -0.255001 -5.847325 180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -1864,7 +1864,7 @@
   )
 
   (module Resistors_SMD:R_0603_HandSoldering (layer B.Cu) (tedit 58AAD9E8) (tstamp 5AC14466)
-    (at 183 79.5)
+    (at 173 112.5)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
     (path /5A18630A)
@@ -1936,7 +1936,7 @@
   )
 
   (module Resistors_SMD:R_0603_HandSoldering (layer B.Cu) (tedit 58AAD9E8) (tstamp 5AC14472)
-    (at 183 77.5)
+    (at 173 110.5)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
     (path /5A186304)
@@ -2008,7 +2008,7 @@
   )
 
   (module Resistors_SMD:R_0603_HandSoldering (layer B.Cu) (tedit 58AAD9E8) (tstamp 5AC1447E)
-    (at 192.5 77.5)
+    (at 182.5 110.5)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
     (path /5A186326)
@@ -2080,7 +2080,7 @@
   )
 
   (module Resistors_SMD:R_0603_HandSoldering (layer B.Cu) (tedit 58AAD9E8) (tstamp 5AC1448A)
-    (at 192 80)
+    (at 182 113)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
     (path /5A18632C)
@@ -2941,7 +2941,7 @@
   )
 
   (module homebrew:NC3FAH (layer B.Cu) (tedit 5AC15AC6) (tstamp 5AC16039)
-    (at 186.81 146.66)
+    (at 172.81 146.55)
     (path /5AB5D316)
     (fp_text reference J1 (at 0 -7.75) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -2968,10 +2968,74 @@
     (pad "" thru_hole circle (at 3.81 8.26) (size 2.4 2.4) (drill 1.6) (layers *.Cu *.Mask))
   )
 
-  (gr_line (start 27 164) (end 27 41) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 201 164) (end 27 164) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 201 41) (end 201 164) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 27 41) (end 201 41) (layer Edge.Cuts) (width 0.1))
+  (module homebrew:HOLE_M4 (layer F.Cu) (tedit 5A63CCE4) (tstamp 5AC1B397)
+    (at 195 158)
+    (path /5AC29C19)
+    (fp_text reference H1 (at 0 4.25) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value HOLE (at 0 -4.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 1 2.25) (layer F.SilkS) (width 0.2))
+    (fp_circle (center 0 0) (end 0 3) (layer F.CrtYd) (width 0.15))
+    (fp_circle (center 0 0) (end 0 3) (layer B.CrtYd) (width 0.15))
+    (pad "" np_thru_hole circle (at 0 0) (size 4.5 4.5) (drill 4.5) (layers *.Cu *.Mask)
+      (solder_mask_margin 0.1))
+  )
+
+  (module homebrew:HOLE_M4 (layer F.Cu) (tedit 5A63CCE4) (tstamp 5AC1B39C)
+    (at 27 45)
+    (path /5AC2A8BA)
+    (fp_text reference H2 (at 0 4.25) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value HOLE (at 0 -4.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 1 2.25) (layer F.SilkS) (width 0.2))
+    (fp_circle (center 0 0) (end 0 3) (layer F.CrtYd) (width 0.15))
+    (fp_circle (center 0 0) (end 0 3) (layer B.CrtYd) (width 0.15))
+    (pad "" np_thru_hole circle (at 0 0) (size 4.5 4.5) (drill 4.5) (layers *.Cu *.Mask)
+      (solder_mask_margin 0.1))
+  )
+
+  (module homebrew:HOLE_M4 (layer F.Cu) (tedit 5A63CCE4) (tstamp 5AC1B3A1)
+    (at 27 158)
+    (path /5AC2A9AB)
+    (fp_text reference H3 (at 0 4.25) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value HOLE (at 0 -4.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 1 2.25) (layer F.SilkS) (width 0.2))
+    (fp_circle (center 0 0) (end 0 3) (layer F.CrtYd) (width 0.15))
+    (fp_circle (center 0 0) (end 0 3) (layer B.CrtYd) (width 0.15))
+    (pad "" np_thru_hole circle (at 0 0) (size 4.5 4.5) (drill 4.5) (layers *.Cu *.Mask)
+      (solder_mask_margin 0.1))
+  )
+
+  (module homebrew:HOLE_M4 (layer F.Cu) (tedit 5A63CCE4) (tstamp 5AC1B3A6)
+    (at 195 45)
+    (path /5AC2AA9F)
+    (fp_text reference H4 (at 0 4.25) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value HOLE (at 0 -4.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 1 2.25) (layer F.SilkS) (width 0.2))
+    (fp_circle (center 0 0) (end 0 3) (layer F.CrtYd) (width 0.15))
+    (fp_circle (center 0 0) (end 0 3) (layer B.CrtYd) (width 0.15))
+    (pad "" np_thru_hole circle (at 0 0) (size 4.5 4.5) (drill 4.5) (layers *.Cu *.Mask)
+      (solder_mask_margin 0.1))
+  )
+
+  (gr_line (start 21 164) (end 21 39) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 201 164) (end 21 164) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 201 39) (end 201 164) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 21 39) (end 201 39) (layer Edge.Cuts) (width 0.1))
   (gr_text Logger (at 56 144) (layer B.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
