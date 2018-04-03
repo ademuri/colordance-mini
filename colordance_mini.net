@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/adam/hardware/colordance-mini/colordance_mini.sch)
-    (date "Mon 02 Apr 2018 08:15:57 PM MDT")
+    (date "Mon 02 Apr 2018 09:26:03 PM MDT")
     (tool "Eeschema 4.0.6+dfsg1-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -447,7 +447,27 @@
       (footprint Capacitors_SMD:C_0603_HandSoldering)
       (libsource (lib device) (part C))
       (sheetpath (names /) (tstamps /))
-      (tstamp 5AC21CFD)))
+      (tstamp 5AC21CFD))
+    (comp (ref H1)
+      (value HOLE)
+      (libsource (lib homebrew) (part HOLE))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5AC34ECC))
+    (comp (ref H2)
+      (value HOLE)
+      (libsource (lib homebrew) (part HOLE))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5AC351B3))
+    (comp (ref H3)
+      (value HOLE)
+      (libsource (lib homebrew) (part HOLE))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5AC352EA))
+    (comp (ref H4)
+      (value HOLE)
+      (libsource (lib homebrew) (part HOLE))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5AC353DE)))
   (libparts
     (libpart (lib 6N137) (part 6N137)
       (fields
@@ -553,6 +573,10 @@
         (pin (num 6) (name P6) (type passive))
         (pin (num 7) (name P7) (type passive))
         (pin (num 8) (name P8) (type passive))))
+    (libpart (lib homebrew) (part HOLE)
+      (fields
+        (field (name Reference) H)
+        (field (name Value) HOLE)))
     (libpart (lib colordance_mini-cache) (part MAX485CSA+)
       (footprints
         (fp 21-0041B_8)
