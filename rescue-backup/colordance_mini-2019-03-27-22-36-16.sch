@@ -1,6 +1,68 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:colordance_mini-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:teensy
+LIBS:shardy
+LIBS:homebrew
+LIBS:6N137
+LIBS:SparkFun-Aesthetics
+LIBS:SparkFun-Batteries
+LIBS:SparkFun-Boards
+LIBS:SparkFun-Capacitors
+LIBS:SparkFun-Clocks
+LIBS:SparkFun-Coils
+LIBS:SparkFun-Connectors
+LIBS:SparkFun-DiscreteSemi
+LIBS:SparkFun-Displays
+LIBS:SparkFun-Electromechanical
+LIBS:SparkFun-Fuses
+LIBS:SparkFun-GPS
+LIBS:SparkFun-Hardware
+LIBS:SparkFun-IC-Amplifiers
+LIBS:SparkFun-IC-Comms
+LIBS:SparkFun-IC-Conversion
+LIBS:SparkFun-IC-Logic
+LIBS:SparkFun-IC-Memory
+LIBS:SparkFun-IC-Microcontroller
+LIBS:SparkFun-IC-Power
+LIBS:SparkFun-IC-Special-Function
+LIBS:SparkFun-Jumpers
+LIBS:SparkFun-LED
+LIBS:SparkFun-PowerSymbols
+LIBS:SparkFun-Resistors
+LIBS:SparkFun-RF
+LIBS:SparkFun-Sensors
+LIBS:SparkFun-Switches
 LIBS:colordance_mini-cache
-EELAYER 29 0
+EELAYER 25 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
@@ -15,7 +77,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L colordance_mini-rescue:POT RV1
+L POT RV1
 U 1 1 5A1848A0
 P 800 2300
 F 0 "RV1" V 625 2300 50  0000 C CNN
@@ -26,7 +88,7 @@ F 3 "" H 800 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR01
+L GND #PWR01
 U 1 1 5A184A16
 P 800 2600
 F 0 "#PWR01" H 800 2350 50  0001 C CNN
@@ -37,7 +99,7 @@ F 3 "" H 800 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L colordance_mini-rescue:POT RV6
+L POT RV6
 U 1 1 5A184B70
 P 4750 2300
 F 0 "RV6" V 4575 2300 50  0000 C CNN
@@ -48,7 +110,7 @@ F 3 "" H 4750 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR02
+L GND #PWR02
 U 1 1 5A184B7C
 P 4750 2600
 F 0 "#PWR02" H 4750 2350 50  0001 C CNN
@@ -59,7 +121,7 @@ F 3 "" H 4750 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L colordance_mini-rescue:POT RV2
+L POT RV2
 U 1 1 5A184BEA
 P 1500 2300
 F 0 "RV2" V 1325 2300 50  0000 C CNN
@@ -70,7 +132,7 @@ F 3 "" H 1500 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR03
+L GND #PWR03
 U 1 1 5A184BF6
 P 1500 2600
 F 0 "#PWR03" H 1500 2350 50  0001 C CNN
@@ -81,7 +143,7 @@ F 3 "" H 1500 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L colordance_mini-rescue:POT RV3
+L POT RV3
 U 1 1 5A184BFE
 P 2350 2300
 F 0 "RV3" V 2175 2300 50  0000 C CNN
@@ -92,7 +154,7 @@ F 3 "" H 2350 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR04
+L GND #PWR04
 U 1 1 5A184C0A
 P 2350 2600
 F 0 "#PWR04" H 2350 2350 50  0001 C CNN
@@ -103,7 +165,7 @@ F 3 "" H 2350 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L colordance_mini-rescue:POT RV4
+L POT RV4
 U 1 1 5A184C72
 P 3050 2300
 F 0 "RV4" V 2875 2300 50  0000 C CNN
@@ -114,7 +176,7 @@ F 3 "" H 3050 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR05
+L GND #PWR05
 U 1 1 5A184C7E
 P 3050 2600
 F 0 "#PWR05" H 3050 2350 50  0001 C CNN
@@ -125,7 +187,7 @@ F 3 "" H 3050 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L colordance_mini-rescue:POT RV5
+L POT RV5
 U 1 1 5A184C86
 P 3850 2300
 F 0 "RV5" V 3675 2300 50  0000 C CNN
@@ -136,7 +198,7 @@ F 3 "" H 3850 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR06
+L GND #PWR06
 U 1 1 5A184C92
 P 3850 2600
 F 0 "#PWR06" H 3850 2350 50  0001 C CNN
@@ -147,7 +209,7 @@ F 3 "" H 3850 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L colordance_mini-rescue:Rotary_Encoder SW1
+L Rotary_Encoder SW1
 U 1 1 5A184CA2
 P 2550 3850
 F 0 "SW1" H 2550 4110 50  0000 C CNN
@@ -158,7 +220,7 @@ F 3 "" H 2550 4110 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR07
+L GND #PWR07
 U 1 1 5A184E1A
 P 2550 4850
 F 0 "#PWR07" H 2550 4600 50  0001 C CNN
@@ -169,7 +231,7 @@ F 3 "" H 2550 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L colordance_mini-rescue:R R8
+L R R8
 U 1 1 5A184E88
 P 2100 3900
 F 0 "R8" V 2180 3900 50  0000 C CNN
@@ -180,7 +242,7 @@ F 3 "" H 2100 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L colordance_mini-rescue:R R6
+L R R6
 U 1 1 5A184F45
 P 1900 4100
 F 0 "R6" V 1980 4100 50  0000 C CNN
@@ -191,7 +253,7 @@ F 3 "" H 1900 4100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L colordance_mini-rescue:C C1
+L C C1
 U 1 1 5A184FD8
 P 1650 4350
 F 0 "C1" H 1675 4450 50  0000 L CNN
@@ -202,7 +264,7 @@ F 3 "" H 1650 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L colordance_mini-rescue:R R10
+L R R10
 U 1 1 5A18532B
 P 3050 3900
 F 0 "R10" V 3130 3900 50  0000 C CNN
@@ -213,7 +275,7 @@ F 3 "" H 3050 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L colordance_mini-rescue:R R12
+L R R12
 U 1 1 5A185331
 P 3250 4100
 F 0 "R12" V 3330 4100 50  0000 C CNN
@@ -224,7 +286,7 @@ F 3 "" H 3250 4100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L colordance_mini-rescue:C C3
+L C C3
 U 1 1 5A185337
 P 3500 4350
 F 0 "C3" H 3525 4450 50  0000 L CNN
@@ -251,7 +313,7 @@ WIDTH
 Text GLabel 4000 2300 2    60   Input ~ 0
 DENSITY
 $Comp
-L colordance_mini-rescue:Rotary_Encoder SW3
+L Rotary_Encoder SW3
 U 1 1 5A185D9E
 P 5650 3850
 F 0 "SW3" H 5650 4110 50  0000 C CNN
@@ -262,7 +324,7 @@ F 3 "" H 5650 4110 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR08
+L GND #PWR08
 U 1 1 5A185DA4
 P 5650 4850
 F 0 "#PWR08" H 5650 4600 50  0001 C CNN
@@ -273,7 +335,7 @@ F 3 "" H 5650 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L colordance_mini-rescue:R R16
+L R R16
 U 1 1 5A185DB0
 P 5200 3900
 F 0 "R16" V 5280 3900 50  0000 C CNN
@@ -284,7 +346,7 @@ F 3 "" H 5200 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L colordance_mini-rescue:R R14
+L R R14
 U 1 1 5A185DB6
 P 5000 4100
 F 0 "R14" V 5080 4100 50  0000 C CNN
@@ -295,7 +357,7 @@ F 3 "" H 5000 4100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L colordance_mini-rescue:C C5
+L C C5
 U 1 1 5A185DBC
 P 4750 4350
 F 0 "C5" H 4775 4450 50  0000 L CNN
@@ -306,7 +368,7 @@ F 3 "" H 4750 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L colordance_mini-rescue:R R18
+L R R18
 U 1 1 5A185DD2
 P 6150 3900
 F 0 "R18" V 6230 3900 50  0000 C CNN
@@ -317,7 +379,7 @@ F 3 "" H 6150 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L colordance_mini-rescue:R R20
+L R R20
 U 1 1 5A185DD8
 P 6350 4100
 F 0 "R20" V 6430 4100 50  0000 C CNN
@@ -328,7 +390,7 @@ F 3 "" H 6350 4100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L colordance_mini-rescue:C C9
+L C C9
 U 1 1 5A185DDE
 P 6600 4350
 F 0 "C9" H 6625 4450 50  0000 L CNN
@@ -343,7 +405,7 @@ HUE_2_A
 Text GLabel 6750 4100 2    60   Input ~ 0
 HUE_2_B
 $Comp
-L colordance_mini-rescue:Rotary_Encoder SW2
+L Rotary_Encoder SW2
 U 1 1 5A18629F
 P 2550 5650
 F 0 "SW2" H 2550 5910 50  0000 C CNN
@@ -354,7 +416,7 @@ F 3 "" H 2550 5910 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR09
+L GND #PWR09
 U 1 1 5A1862A5
 P 2550 6650
 F 0 "#PWR09" H 2550 6400 50  0001 C CNN
@@ -365,7 +427,7 @@ F 3 "" H 2550 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L colordance_mini-rescue:R R9
+L R R9
 U 1 1 5A1862B1
 P 2100 5700
 F 0 "R9" V 2180 5700 50  0000 C CNN
@@ -376,7 +438,7 @@ F 3 "" H 2100 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L colordance_mini-rescue:R R7
+L R R7
 U 1 1 5A1862B7
 P 1900 5900
 F 0 "R7" V 1980 5900 50  0000 C CNN
@@ -387,7 +449,7 @@ F 3 "" H 1900 5900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L colordance_mini-rescue:C C2
+L C C2
 U 1 1 5A1862BD
 P 1650 6150
 F 0 "C2" H 1675 6250 50  0000 L CNN
@@ -398,7 +460,7 @@ F 3 "" H 1650 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L colordance_mini-rescue:R R11
+L R R11
 U 1 1 5A1862D3
 P 3050 5700
 F 0 "R11" V 3130 5700 50  0000 C CNN
@@ -409,7 +471,7 @@ F 3 "" H 3050 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L colordance_mini-rescue:R R13
+L R R13
 U 1 1 5A1862D9
 P 3250 5900
 F 0 "R13" V 3330 5900 50  0000 C CNN
@@ -420,7 +482,7 @@ F 3 "" H 3250 5900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L colordance_mini-rescue:C C4
+L C C4
 U 1 1 5A1862DF
 P 3500 6150
 F 0 "C4" H 3525 6250 50  0000 L CNN
@@ -435,7 +497,7 @@ HUE_1_A
 Text GLabel 3650 5900 2    60   Input ~ 0
 HUE_1_B
 $Comp
-L colordance_mini-rescue:Rotary_Encoder SW4
+L Rotary_Encoder SW4
 U 1 1 5A1862F2
 P 5650 5650
 F 0 "SW4" H 5650 5910 50  0000 C CNN
@@ -446,7 +508,7 @@ F 3 "" H 5650 5910 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR010
+L GND #PWR010
 U 1 1 5A1862F8
 P 5650 6650
 F 0 "#PWR010" H 5650 6400 50  0001 C CNN
@@ -457,7 +519,7 @@ F 3 "" H 5650 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L colordance_mini-rescue:R R17
+L R R17
 U 1 1 5A186304
 P 5200 5700
 F 0 "R17" V 5280 5700 50  0000 C CNN
@@ -468,7 +530,7 @@ F 3 "" H 5200 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L colordance_mini-rescue:R R15
+L R R15
 U 1 1 5A18630A
 P 5000 5900
 F 0 "R15" V 5080 5900 50  0000 C CNN
@@ -479,7 +541,7 @@ F 3 "" H 5000 5900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L colordance_mini-rescue:C C6
+L C C6
 U 1 1 5A186310
 P 4750 6150
 F 0 "C6" H 4775 6250 50  0000 L CNN
@@ -490,7 +552,7 @@ F 3 "" H 4750 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L colordance_mini-rescue:R R19
+L R R19
 U 1 1 5A186326
 P 6150 5700
 F 0 "R19" V 6230 5700 50  0000 C CNN
@@ -501,7 +563,7 @@ F 3 "" H 6150 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L colordance_mini-rescue:R R21
+L R R21
 U 1 1 5A18632C
 P 6350 5900
 F 0 "R21" V 6430 5900 50  0000 C CNN
@@ -512,7 +574,7 @@ F 3 "" H 6350 5900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L colordance_mini-rescue:C C10
+L C C10
 U 1 1 5A186332
 P 6600 6150
 F 0 "C10" H 6625 6250 50  0000 L CNN
@@ -527,7 +589,7 @@ TEMPO_A
 Text GLabel 6750 5900 2    60   Input ~ 0
 TEMPO_B
 $Comp
-L power:GND #PWR011
+L GND #PWR011
 U 1 1 5A187222
 P 7050 5250
 F 0 "#PWR011" H 7050 5000 50  0001 C CNN
@@ -538,7 +600,7 @@ F 3 "" H 7050 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L colordance_mini-rescue:C C11
+L C C11
 U 1 1 5A1873CB
 P 7050 5050
 F 0 "C11" H 7075 5150 50  0000 L CNN
@@ -585,7 +647,7 @@ TEMPO_B
 Text GLabel 19050 4700 0    60   Input ~ 0
 DENSITY
 $Comp
-L colordance_mini-rescue:C C12
+L C C12
 U 1 1 5AB5673B
 P 7350 5050
 F 0 "C12" H 7375 5150 50  0000 L CNN
@@ -596,7 +658,7 @@ F 3 "" H 7350 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR012
+L +3V3 #PWR012
 U 1 1 5AB56946
 P 7050 4850
 F 0 "#PWR012" H 7050 4700 50  0001 C CNN
@@ -607,7 +669,7 @@ F 3 "" H 7050 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR013
+L +3V3 #PWR013
 U 1 1 5AB56CE3
 P 6150 3650
 F 0 "#PWR013" H 6150 3500 50  0001 C CNN
@@ -618,7 +680,7 @@ F 3 "" H 6150 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR014
+L +3V3 #PWR014
 U 1 1 5AB56D5D
 P 5200 3650
 F 0 "#PWR014" H 5200 3500 50  0001 C CNN
@@ -629,7 +691,7 @@ F 3 "" H 5200 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR015
+L +3V3 #PWR015
 U 1 1 5AB56DD7
 P 3050 3650
 F 0 "#PWR015" H 3050 3500 50  0001 C CNN
@@ -640,7 +702,7 @@ F 3 "" H 3050 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR016
+L +3V3 #PWR016
 U 1 1 5AB56E51
 P 2100 3650
 F 0 "#PWR016" H 2100 3500 50  0001 C CNN
@@ -651,7 +713,7 @@ F 3 "" H 2100 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR017
+L +3V3 #PWR017
 U 1 1 5AB56ECB
 P 2100 5450
 F 0 "#PWR017" H 2100 5300 50  0001 C CNN
@@ -662,7 +724,7 @@ F 3 "" H 2100 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR018
+L +3V3 #PWR018
 U 1 1 5AB56F45
 P 3050 5450
 F 0 "#PWR018" H 3050 5300 50  0001 C CNN
@@ -673,7 +735,7 @@ F 3 "" H 3050 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR019
+L +3V3 #PWR019
 U 1 1 5AB56FBF
 P 5200 5450
 F 0 "#PWR019" H 5200 5300 50  0001 C CNN
@@ -684,7 +746,7 @@ F 3 "" H 5200 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR020
+L +3V3 #PWR020
 U 1 1 5AB57039
 P 6150 5450
 F 0 "#PWR020" H 6150 5300 50  0001 C CNN
@@ -695,7 +757,7 @@ F 3 "" H 6150 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR021
+L +3V3 #PWR021
 U 1 1 5AB5722A
 P 800 2000
 F 0 "#PWR021" H 800 1850 50  0001 C CNN
@@ -706,7 +768,7 @@ F 3 "" H 800 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR022
+L +3V3 #PWR022
 U 1 1 5AB572A4
 P 1500 2000
 F 0 "#PWR022" H 1500 1850 50  0001 C CNN
@@ -717,7 +779,7 @@ F 3 "" H 1500 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR023
+L +3V3 #PWR023
 U 1 1 5AB5731E
 P 2350 2000
 F 0 "#PWR023" H 2350 1850 50  0001 C CNN
@@ -728,7 +790,7 @@ F 3 "" H 2350 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR024
+L +3V3 #PWR024
 U 1 1 5AB57398
 P 3050 2000
 F 0 "#PWR024" H 3050 1850 50  0001 C CNN
@@ -739,7 +801,7 @@ F 3 "" H 3050 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR025
+L +3V3 #PWR025
 U 1 1 5AB57412
 P 3850 2000
 F 0 "#PWR025" H 3850 1850 50  0001 C CNN
@@ -750,7 +812,7 @@ F 3 "" H 3850 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR026
+L +3V3 #PWR026
 U 1 1 5AB574B2
 P 4750 2000
 F 0 "#PWR026" H 4750 1850 50  0001 C CNN
@@ -785,7 +847,7 @@ PREV_EFFECT
 Text GLabel 19050 2900 0    60   Input ~ 0
 ON_BUTTON
 $Comp
-L colordance_mini-rescue:MAX485CSA+ U1
+L MAX485CSA+ U1
 U 1 1 5AB5BDDA
 P 2550 8900
 F 0 "U1" H 3350 9300 60  0000 C CNN
@@ -801,7 +863,7 @@ Text GLabel 2550 9100 0    60   Input ~ 0
 DMX_3V3_ISO
 NoConn ~ 4150 8900
 $Comp
-L shardy:XLR3 J1
+L XLR3 J1
 U 1 1 5AB5D316
 P 1250 8750
 F 0 "J1" H 1400 9000 50  0000 C CNN
@@ -812,7 +874,7 @@ F 3 "" H 1250 8750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L colordance_mini-rescue:R R1
+L R R1
 U 1 1 5AB5D7A5
 P 1400 9150
 F 0 "R1" V 1480 9150 50  0000 C CNN
@@ -849,20 +911,20 @@ Wire Wire Line
 Wire Wire Line
 	2100 3650 2100 3750
 Wire Wire Line
-	2100 4050 2100 4100
+	2100 4050 2100 4150
 Wire Wire Line
 	2100 4100 2050 4100
 Wire Wire Line
 	2100 4150 2450 4150
 Connection ~ 2100 4100
 Wire Wire Line
-	1500 4100 1650 4100
+	1500 4100 1750 4100
 Wire Wire Line
 	1650 4100 1650 4200
 Wire Wire Line
 	1650 4500 1650 4850
 Wire Wire Line
-	1650 4850 2550 4850
+	1650 4850 3500 4850
 Wire Wire Line
 	2550 4850 2550 4150
 Wire Wire Line
@@ -870,12 +932,12 @@ Wire Wire Line
 Wire Wire Line
 	3050 4150 2650 4150
 Wire Wire Line
-	3050 4050 3050 4100
+	3050 4050 3050 4150
 Wire Wire Line
 	3100 4100 3050 4100
 Connection ~ 3050 4100
 Wire Wire Line
-	3400 4100 3500 4100
+	3400 4100 3650 4100
 Wire Wire Line
 	3500 4100 3500 4200
 Wire Wire Line
@@ -886,20 +948,20 @@ Connection ~ 1650 4100
 Wire Wire Line
 	5200 3650 5200 3750
 Wire Wire Line
-	5200 4050 5200 4100
+	5200 4050 5200 4150
 Wire Wire Line
 	5200 4100 5150 4100
 Wire Wire Line
 	5200 4150 5550 4150
 Connection ~ 5200 4100
 Wire Wire Line
-	4600 4100 4750 4100
+	4600 4100 4850 4100
 Wire Wire Line
 	4750 4100 4750 4200
 Wire Wire Line
 	4750 4500 4750 4850
 Wire Wire Line
-	4750 4850 5650 4850
+	4750 4850 6600 4850
 Wire Wire Line
 	5650 4850 5650 4150
 Wire Wire Line
@@ -907,12 +969,12 @@ Wire Wire Line
 Wire Wire Line
 	6150 4150 5750 4150
 Wire Wire Line
-	6150 4050 6150 4100
+	6150 4050 6150 4150
 Wire Wire Line
 	6200 4100 6150 4100
 Connection ~ 6150 4100
 Wire Wire Line
-	6500 4100 6600 4100
+	6500 4100 6750 4100
 Wire Wire Line
 	6600 4100 6600 4200
 Wire Wire Line
@@ -923,20 +985,20 @@ Connection ~ 4750 4100
 Wire Wire Line
 	2100 5450 2100 5550
 Wire Wire Line
-	2100 5850 2100 5900
+	2100 5850 2100 5950
 Wire Wire Line
 	2100 5900 2050 5900
 Wire Wire Line
 	2100 5950 2450 5950
 Connection ~ 2100 5900
 Wire Wire Line
-	1500 5900 1650 5900
+	1500 5900 1750 5900
 Wire Wire Line
 	1650 5900 1650 6000
 Wire Wire Line
 	1650 6300 1650 6650
 Wire Wire Line
-	1650 6650 2550 6650
+	1650 6650 3500 6650
 Wire Wire Line
 	2550 6650 2550 5950
 Wire Wire Line
@@ -944,12 +1006,12 @@ Wire Wire Line
 Wire Wire Line
 	3050 5950 2650 5950
 Wire Wire Line
-	3050 5850 3050 5900
+	3050 5850 3050 5950
 Wire Wire Line
 	3100 5900 3050 5900
 Connection ~ 3050 5900
 Wire Wire Line
-	3400 5900 3500 5900
+	3400 5900 3650 5900
 Wire Wire Line
 	3500 5900 3500 6000
 Wire Wire Line
@@ -960,20 +1022,20 @@ Connection ~ 1650 5900
 Wire Wire Line
 	5200 5450 5200 5550
 Wire Wire Line
-	5200 5850 5200 5900
+	5200 5850 5200 5950
 Wire Wire Line
 	5200 5900 5150 5900
 Wire Wire Line
 	5200 5950 5550 5950
 Connection ~ 5200 5900
 Wire Wire Line
-	4600 5900 4750 5900
+	4600 5900 4850 5900
 Wire Wire Line
 	4750 5900 4750 6000
 Wire Wire Line
 	4750 6300 4750 6650
 Wire Wire Line
-	4750 6650 5650 6650
+	4750 6650 6600 6650
 Wire Wire Line
 	5650 6650 5650 5950
 Wire Wire Line
@@ -981,12 +1043,12 @@ Wire Wire Line
 Wire Wire Line
 	6150 5950 5750 5950
 Wire Wire Line
-	6150 5850 6150 5900
+	6150 5850 6150 5950
 Wire Wire Line
 	6200 5900 6150 5900
 Connection ~ 6150 5900
 Wire Wire Line
-	6500 5900 6600 5900
+	6500 5900 6750 5900
 Wire Wire Line
 	6600 5900 6600 6000
 Wire Wire Line
@@ -1005,12 +1067,12 @@ Wire Wire Line
 Wire Wire Line
 	2550 8900 2550 9000
 Wire Wire Line
-	1250 9300 1750 9300
+	1250 9300 2550 9300
 Wire Wire Line
 	1550 9150 1600 9150
 Connection ~ 1600 9150
 $Comp
-L colordance_mini-rescue:R R4
+L R R4
 U 1 1 5AB5DB48
 P 1750 9150
 F 0 "R4" V 1830 9150 50  0000 C CNN
@@ -1021,7 +1083,7 @@ F 3 "" H 1750 9150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L colordance_mini-rescue:R R5
+L R R5
 U 1 1 5AB5DC2F
 P 1750 9550
 F 0 "R5" V 1830 9550 50  0000 C CNN
@@ -1032,7 +1094,7 @@ F 3 "" H 1750 9550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR030
+L +5V #PWR030
 U 1 1 5AB5DD11
 P 1750 9000
 F 0 "#PWR030" H 1750 8850 50  0001 C CNN
@@ -1047,7 +1109,7 @@ PARAM
 Text Notes 1250 11050 0    60   ~ 0
 Battery voltage monitor
 $Comp
-L power:+BATT #PWR031
+L +BATT #PWR031
 U 1 1 5AB6B426
 P 1500 11350
 F 0 "#PWR031" H 1500 11200 50  0001 C CNN
@@ -1058,7 +1120,7 @@ F 3 "" H 1500 11350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L colordance_mini-rescue:R R2
+L R R2
 U 1 1 5AB6B4E2
 P 1500 11500
 F 0 "R2" V 1580 11500 50  0000 C CNN
@@ -1069,7 +1131,7 @@ F 3 "" H 1500 11500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L colordance_mini-rescue:R R3
+L R R3
 U 1 1 5AB6B5A9
 P 1500 11800
 F 0 "R3" V 1580 11800 50  0000 C CNN
@@ -1080,7 +1142,7 @@ F 3 "" H 1500 11800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR032
+L GND #PWR032
 U 1 1 5AB6B622
 P 1500 11950
 F 0 "#PWR032" H 1500 11700 50  0001 C CNN
@@ -1095,7 +1157,7 @@ VBATT_DIV
 Wire Wire Line
 	1650 11650 1500 11650
 $Comp
-L homebrew:ROE-0505S U2
+L ROE-0505S U2
 U 1 1 5ABC90C6
 P 5300 9050
 F 0 "U2" H 5350 9300 60  0000 C CNN
@@ -1108,7 +1170,7 @@ $EndComp
 Text Notes 4850 8400 0    60   ~ 0
 DMX power isolation
 $Comp
-L power:GND #PWR033
+L GND #PWR033
 U 1 1 5ABC91CB
 P 4850 9150
 F 0 "#PWR033" H 4850 8900 50  0001 C CNN
@@ -1119,7 +1181,7 @@ F 3 "" H 4850 9150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR034
+L +5V #PWR034
 U 1 1 5ABC925D
 P 4850 8950
 F 0 "#PWR034" H 4850 8800 50  0001 C CNN
@@ -1132,7 +1194,7 @@ $EndComp
 Text GLabel 6800 8950 2    60   Input ~ 0
 VDMX
 $Comp
-L colordance_mini-rescue:C C7
+L C C7
 U 1 1 5ABCAACC
 P 6100 9100
 F 0 "C7" H 6125 9200 50  0000 L CNN
@@ -1143,7 +1205,7 @@ F 3 "" H 6100 9100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L colordance_mini-rescue:C C8
+L C C8
 U 1 1 5ABCBB46
 P 6450 9100
 F 0 "C8" H 6475 9200 50  0000 L CNN
@@ -1154,13 +1216,13 @@ F 3 "" H 6450 9100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5850 8950 6100 8950
+	5850 8950 6800 8950
 Connection ~ 6100 8950
 Connection ~ 6450 8950
 Wire Wire Line
-	5950 9250 6100 9250
+	5950 9250 6450 9250
 $Comp
-L 6N137:6N137 U3
+L 6N137 U3
 U 1 1 5ABF1767
 P 8900 9100
 F 0 "U3" H 8699 9732 50  0000 L BNN
@@ -1178,7 +1240,7 @@ $EndComp
 Text GLabel 8000 9300 0    60   Input ~ 0
 DMX_3V3
 $Comp
-L colordance_mini-rescue:R R22
+L R R22
 U 1 1 5ABF222B
 P 8150 9300
 F 0 "R22" V 8230 9300 50  0000 C CNN
@@ -1192,6 +1254,7 @@ Text GLabel 2550 9700 0    60   Input ~ 0
 VDMX
 Text GLabel 2550 8900 1    60   Input ~ 0
 VDMX
+Connection ~ 2550 8900
 Text GLabel 9500 8600 2    60   Input ~ 0
 VDMX
 Text GLabel 9850 9300 2    60   Input ~ 0
@@ -1199,7 +1262,7 @@ DMX_3V3_ISO
 Text GLabel 9700 9000 1    60   Input ~ 0
 VDMX
 $Comp
-L colordance_mini-rescue:R R23
+L R R23
 U 1 1 5ABF5BC9
 P 9700 9150
 F 0 "R23" V 9780 9150 50  0000 C CNN
@@ -1210,12 +1273,12 @@ F 3 "" H 9700 9150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9500 9300 9700 9300
+	9500 9300 9850 9300
 Connection ~ 9700 9300
 Text Notes 8450 8350 0    60   ~ 0
 DMX signal isolation
 $Comp
-L colordance_mini-rescue:CONN_01X04 J7
+L CONN_01X04 J7
 U 1 1 5ABF94DA
 P 12300 1150
 F 0 "J7" H 12300 1400 50  0000 C CNN
@@ -1238,7 +1301,7 @@ TEMPO_TAP_LED
 Text GLabel 12500 1300 2    60   Input ~ 0
 GND
 $Comp
-L colordance_mini-rescue:CONN_01X04 J8
+L CONN_01X04 J8
 U 1 1 5ABFAFF3
 P 12300 2000
 F 0 "J8" H 12300 2250 50  0000 C CNN
@@ -1259,7 +1322,7 @@ ORIENTATION_LED
 Text GLabel 12500 2150 2    60   Input ~ 0
 GND
 $Comp
-L colordance_mini-rescue:CONN_01X04 J9
+L CONN_01X04 J9
 U 1 1 5ABFB43D
 P 12300 2900
 F 0 "J9" H 12300 3150 50  0000 C CNN
@@ -1280,7 +1343,7 @@ ON_BUTTON_LED
 Text GLabel 12500 3050 2    60   Input ~ 0
 GND
 $Comp
-L colordance_mini-rescue:CONN_01X08 J2
+L CONN_01X08 J2
 U 1 1 5ABFB54C
 P 12250 3950
 F 0 "J2" H 12250 4400 50  0000 C CNN
@@ -1309,7 +1372,7 @@ PREV_EFFECT_LED
 Text GLabel 12450 4300 2    60   Input ~ 0
 GND
 $Comp
-L colordance_mini-rescue:CONN_01X04 J3
+L CONN_01X04 J3
 U 1 1 5ABFCD70
 P 13900 5650
 F 0 "J3" H 13900 5900 50  0000 C CNN
@@ -1326,7 +1389,7 @@ SPI_LED_MOSI
 Text GLabel 12650 5600 0    60   Input ~ 0
 SPI_LED_SCK
 $Comp
-L power:+5V #PWR038
+L +5V #PWR038
 U 1 1 5ABFD543
 P 13700 5500
 F 0 "#PWR038" H 13700 5350 50  0001 C CNN
@@ -1337,7 +1400,7 @@ F 3 "" H 13700 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR039
+L GND #PWR039
 U 1 1 5ABFD6A5
 P 13700 5800
 F 0 "#PWR039" H 13700 5550 50  0001 C CNN
@@ -1348,7 +1411,7 @@ F 3 "" H 13700 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L colordance_mini-rescue:CONN_01X03 J4
+L CONN_01X03 J4
 U 1 1 5ABFF89E
 P 12250 6400
 F 0 "J4" H 12250 6650 50  0000 C CNN
@@ -1361,7 +1424,7 @@ $EndComp
 Text Notes 12000 6050 0    60   ~ 0
 Power
 $Comp
-L power:+5V #PWR040
+L +5V #PWR040
 U 1 1 5ABFF8A7
 P 13300 6400
 F 0 "#PWR040" H 13300 6250 50  0001 C CNN
@@ -1372,7 +1435,7 @@ F 3 "" H 13300 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR041
+L GND #PWR041
 U 1 1 5ABFF8AD
 P 12450 6500
 F 0 "#PWR041" H 12450 6250 50  0001 C CNN
@@ -1383,7 +1446,7 @@ F 3 "" H 12450 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+BATT #PWR042
+L +BATT #PWR042
 U 1 1 5ABFFD6E
 P 12450 6300
 F 0 "#PWR042" H 12450 6150 50  0001 C CNN
@@ -1394,9 +1457,9 @@ F 3 "" H 12450 6300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12450 6400 12700 6400
+	12450 6400 13300 6400
 $Comp
-L colordance_mini-rescue:CONN_01X03 J13
+L CONN_01X03 J13
 U 1 1 5AC00D79
 P 16600 7700
 F 0 "J13" H 16600 7950 50  0000 C CNN
@@ -1407,7 +1470,7 @@ F 3 "" H 16600 7700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+5V #PWR043
+L +5V #PWR043
 U 1 1 5AC00D80
 P 16800 7600
 F 0 "#PWR043" H 16800 7450 50  0001 C CNN
@@ -1418,7 +1481,7 @@ F 3 "" H 16800 7600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR044
+L GND #PWR044
 U 1 1 5AC00D86
 P 16800 7800
 F 0 "#PWR044" H 16800 7550 50  0001 C CNN
@@ -1433,7 +1496,7 @@ Motion sensors
 Text GLabel 16800 7700 2    60   Input ~ 0
 MOTION_1
 $Comp
-L colordance_mini-rescue:CONN_01X03 J15
+L CONN_01X03 J15
 U 1 1 5AC01A80
 P 17650 7700
 F 0 "J15" H 17650 7950 50  0000 C CNN
@@ -1444,7 +1507,7 @@ F 3 "" H 17650 7700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+5V #PWR045
+L +5V #PWR045
 U 1 1 5AC01A86
 P 17850 7600
 F 0 "#PWR045" H 17850 7450 50  0001 C CNN
@@ -1455,7 +1518,7 @@ F 3 "" H 17850 7600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR046
+L GND #PWR046
 U 1 1 5AC01A8C
 P 17850 7800
 F 0 "#PWR046" H 17850 7550 50  0001 C CNN
@@ -1468,7 +1531,7 @@ $EndComp
 Text GLabel 17850 7700 2    60   Input ~ 0
 MOTION_2
 $Comp
-L colordance_mini-rescue:CONN_01X03 J14
+L CONN_01X03 J14
 U 1 1 5AC01BE3
 P 16600 8400
 F 0 "J14" H 16600 8650 50  0000 C CNN
@@ -1479,7 +1542,7 @@ F 3 "" H 16600 8400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+5V #PWR047
+L +5V #PWR047
 U 1 1 5AC01BE9
 P 16800 8300
 F 0 "#PWR047" H 16800 8150 50  0001 C CNN
@@ -1490,7 +1553,7 @@ F 3 "" H 16800 8300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR048
+L GND #PWR048
 U 1 1 5AC01BEF
 P 16800 8500
 F 0 "#PWR048" H 16800 8250 50  0001 C CNN
@@ -1503,7 +1566,7 @@ $EndComp
 Text GLabel 16800 8400 2    60   Input ~ 0
 MOTION_3
 $Comp
-L colordance_mini-rescue:CONN_01X03 J16
+L CONN_01X03 J16
 U 1 1 5AC01BF6
 P 17650 8400
 F 0 "J16" H 17650 8650 50  0000 C CNN
@@ -1514,7 +1577,7 @@ F 3 "" H 17650 8400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+5V #PWR049
+L +5V #PWR049
 U 1 1 5AC01BFC
 P 17850 8300
 F 0 "#PWR049" H 17850 8150 50  0001 C CNN
@@ -1525,7 +1588,7 @@ F 3 "" H 17850 8300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR050
+L GND #PWR050
 U 1 1 5AC01C02
 P 17850 8500
 F 0 "#PWR050" H 17850 8250 50  0001 C CNN
@@ -1540,7 +1603,7 @@ MOTION_4
 Text GLabel 19050 3900 0    60   Input ~ 0
 SERIAL_LOG_OUT
 $Comp
-L colordance_mini-rescue:CONN_01X04 J5
+L CONN_01X04 J5
 U 1 1 5AC053E1
 P 12250 7350
 F 0 "J5" H 12250 7600 50  0000 C CNN
@@ -1553,7 +1616,7 @@ $EndComp
 Text Notes 12000 7000 0    60   ~ 0
 Logger
 $Comp
-L power:GND #PWR051
+L GND #PWR051
 U 1 1 5AC053F0
 P 12450 7500
 F 0 "#PWR051" H 12450 7250 50  0001 C CNN
@@ -1569,7 +1632,7 @@ SERIAL_LOG_OUT
 Wire Wire Line
 	13350 7400 12450 7400
 $Comp
-L colordance_mini-rescue:CONN_01X03 J6
+L CONN_01X03 J6
 U 1 1 5ABFBAB9
 P 12250 8200
 F 0 "J6" H 12250 8450 50  0000 C CNN
@@ -1582,7 +1645,7 @@ $EndComp
 Text Notes 12000 7850 0    60   ~ 0
 External mic
 $Comp
-L power:GND #PWR052
+L GND #PWR052
 U 1 1 5ABFBAC6
 P 12450 8300
 F 0 "#PWR052" H 12450 8050 50  0001 C CNN
@@ -1593,7 +1656,7 @@ F 3 "" H 12450 8300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR053
+L +3V3 #PWR053
 U 1 1 5ABFC360
 P 12450 8100
 F 0 "#PWR053" H 12450 7950 50  0001 C CNN
@@ -1616,7 +1679,7 @@ NEXT_EFFECT_LED
 Text GLabel 21050 4700 2    60   Input ~ 0
 PREV_EFFECT_LED
 $Comp
-L colordance_mini-rescue:CONN_01X06 J10
+L CONN_01X06 J10
 U 1 1 5ABFF1BF
 P 15350 10050
 F 0 "J10" H 15350 10300 50  0000 C CNN
@@ -1629,7 +1692,7 @@ $EndComp
 Text Notes 15100 9650 0    60   ~ 0
 SPI
 $Comp
-L power:GND #PWR054
+L GND #PWR054
 U 1 1 5ABFF1CE
 P 15550 10300
 F 0 "#PWR054" H 15550 10050 50  0001 C CNN
@@ -1642,7 +1705,7 @@ $EndComp
 Text Notes 13500 10100 0    118  ~ 0
 Aux connections
 $Comp
-L power:+3V3 #PWR055
+L +3V3 #PWR055
 U 1 1 5AC00B2E
 P 15550 9800
 F 0 "#PWR055" H 15550 9650 50  0001 C CNN
@@ -1665,7 +1728,7 @@ AUX_CS
 Text Notes 15100 11000 0    60   ~ 0
 I2C
 $Comp
-L colordance_mini-rescue:CONN_01X04 J11
+L CONN_01X04 J11
 U 1 1 5AC04023
 P 15350 11500
 F 0 "J11" H 15350 11750 50  0000 C CNN
@@ -1676,7 +1739,7 @@ F 3 "" H 15350 11500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+3V3 #PWR056
+L +3V3 #PWR056
 U 1 1 5AC041ED
 P 15550 11350
 F 0 "#PWR056" H 15550 11200 50  0001 C CNN
@@ -1687,7 +1750,7 @@ F 3 "" H 15550 11350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR057
+L GND #PWR057
 U 1 1 5AC042F8
 P 15550 11650
 F 0 "#PWR057" H 15550 11400 50  0001 C CNN
@@ -1702,7 +1765,7 @@ SDA0
 Text GLabel 16700 11550 2    60   Input ~ 0
 SCL0
 $Comp
-L colordance_mini-rescue:R R24
+L R R24
 U 1 1 5AC05147
 P 15800 11300
 F 0 "R24" V 15880 11300 50  0000 C CNN
@@ -1713,7 +1776,7 @@ F 3 "" H 15800 11300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR058
+L +3V3 #PWR058
 U 1 1 5AC0539F
 P 15800 11150
 F 0 "#PWR058" H 15800 11000 50  0001 C CNN
@@ -1724,10 +1787,10 @@ F 3 "" H 15800 11150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	15550 11450 15800 11450
+	15550 11450 16000 11450
 Connection ~ 15800 11450
 $Comp
-L colordance_mini-rescue:R R25
+L R R25
 U 1 1 5AC05769
 P 16500 11400
 F 0 "R25" V 16580 11400 50  0000 C CNN
@@ -1738,10 +1801,10 @@ F 3 "" H 16500 11400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	15550 11550 16500 11550
+	15550 11550 16700 11550
 Connection ~ 16500 11550
 $Comp
-L power:+3V3 #PWR059
+L +3V3 #PWR059
 U 1 1 5AC059D1
 P 16500 11250
 F 0 "#PWR059" H 16500 11100 50  0001 C CNN
@@ -1756,7 +1819,7 @@ AUX_PIN_1
 Text GLabel 19050 3100 0    60   Input ~ 0
 AUX_PIN_2
 $Comp
-L colordance_mini-rescue:CONN_01X04 J12
+L CONN_01X04 J12
 U 1 1 5AC06F88
 P 15350 12600
 F 0 "J12" H 15350 12850 50  0000 C CNN
@@ -1767,7 +1830,7 @@ F 3 "" H 15350 12600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+3V3 #PWR060
+L +3V3 #PWR060
 U 1 1 5AC06F8E
 P 15550 12450
 F 0 "#PWR060" H 15550 12300 50  0001 C CNN
@@ -1778,7 +1841,7 @@ F 3 "" H 15550 12450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR061
+L GND #PWR061
 U 1 1 5AC06F94
 P 15550 12750
 F 0 "#PWR061" H 15550 12500 50  0001 C CNN
@@ -1800,7 +1863,7 @@ NoConn ~ 21050 3700
 NoConn ~ 21050 4100
 NoConn ~ 21050 4200
 $Comp
-L power:+5V #PWR062
+L +5V #PWR062
 U 1 1 5AC09D7A
 P 21400 4300
 F 0 "#PWR062" H 21400 4150 50  0001 C CNN
@@ -1813,7 +1876,7 @@ $EndComp
 Wire Wire Line
 	21400 4300 21050 4300
 $Comp
-L power:GND #PWR063
+L GND #PWR063
 U 1 1 5AC0A7F4
 P 21400 4400
 F 0 "#PWR063" H 21400 4150 50  0001 C CNN
@@ -1827,7 +1890,7 @@ Wire Wire Line
 	21050 4400 21400 4400
 NoConn ~ 21050 4500
 $Comp
-L power:GND #PWR064
+L GND #PWR064
 U 1 1 5AC0AD40
 P 21200 3500
 F 0 "#PWR064" H 21200 3250 50  0001 C CNN
@@ -1842,7 +1905,7 @@ Wire Wire Line
 Wire Wire Line
 	21050 3500 21050 3400
 $Comp
-L power:+3V3 #PWR065
+L +3V3 #PWR065
 U 1 1 5AC0C171
 P 18200 3500
 F 0 "#PWR065" H 18200 3350 50  0001 C CNN
@@ -1855,7 +1918,7 @@ $EndComp
 Wire Wire Line
 	18200 3500 19050 3500
 $Comp
-L colordance_mini-rescue:CONN_01X04 J17
+L CONN_01X04 J17
 U 1 1 5AC0D277
 P 15350 13650
 F 0 "J17" H 15350 13900 50  0000 C CNN
@@ -1866,7 +1929,7 @@ F 3 "" H 15350 13650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+3V3 #PWR066
+L +3V3 #PWR066
 U 1 1 5AC0D27D
 P 15550 13500
 F 0 "#PWR066" H 15550 13350 50  0001 C CNN
@@ -1877,7 +1940,7 @@ F 3 "" H 15550 13500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR067
+L GND #PWR067
 U 1 1 5AC0D283
 P 15550 13800
 F 0 "#PWR067" H 15550 13550 50  0001 C CNN
@@ -1897,7 +1960,7 @@ NoConn ~ 19050 4800
 NoConn ~ 19050 3700
 NoConn ~ 19050 3800
 $Comp
-L power:GND #PWR068
+L GND #PWR068
 U 1 1 5AC0DC91
 P 18900 3600
 F 0 "#PWR068" H 18900 3350 50  0001 C CNN
@@ -1923,7 +1986,7 @@ Connection ~ 1750 9300
 Connection ~ 1750 9400
 Connection ~ 1250 9150
 $Comp
-L SparkFun-LED:APA102C D1
+L APA102C D1
 U 1 1 5AC13E31
 P 13050 5600
 F 0 "D1" H 13050 5800 60  0000 C CNN
@@ -1934,7 +1997,7 @@ F 3 "" H 13050 5600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR069
+L GND #PWR069
 U 1 1 5AC140CF
 P 12500 5350
 F 0 "#PWR069" H 12500 5100 50  0001 C CNN
@@ -1949,7 +2012,7 @@ Wire Wire Line
 Wire Wire Line
 	12650 5350 12650 5500
 $Comp
-L power:+5V #PWR070
+L +5V #PWR070
 U 1 1 5AC14273
 P 13450 5500
 F 0 "#PWR070" H 13450 5350 50  0001 C CNN
@@ -1964,7 +2027,7 @@ Wire Wire Line
 Wire Wire Line
 	13700 5700 13450 5700
 $Comp
-L colordance_mini-rescue:C C13
+L C C13
 U 1 1 5AC21BC3
 P 12700 6550
 F 0 "C13" H 12725 6650 50  0000 L CNN
@@ -1975,7 +2038,7 @@ F 3 "" H 12700 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L colordance_mini-rescue:C C14
+L C C14
 U 1 1 5AC21CFD
 P 13050 6550
 F 0 "C14" H 13075 6650 50  0000 L CNN
@@ -1988,9 +2051,9 @@ $EndComp
 Connection ~ 12700 6400
 Connection ~ 13050 6400
 Wire Wire Line
-	13050 6700 12800 6700
+	13050 6700 12700 6700
 $Comp
-L power:GND #PWR071
+L GND #PWR071
 U 1 1 5AC22B68
 P 12800 6700
 F 0 "#PWR071" H 12800 6450 50  0001 C CNN
@@ -2003,7 +2066,7 @@ $EndComp
 Connection ~ 7050 5200
 Connection ~ 12800 6700
 $Comp
-L power:+3V3 #PWR072
+L +3V3 #PWR072
 U 1 1 5AC2FC7B
 P 13350 7400
 F 0 "#PWR072" H 13350 7250 50  0001 C CNN
@@ -2014,7 +2077,7 @@ F 3 "" H 13350 7400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L homebrew:HOLE H1
+L HOLE H1
 U 1 1 5AC34ECC
 P 10450 12050
 F 0 "H1" H 10450 11920 60  0000 C CNN
@@ -2025,7 +2088,7 @@ F 3 "" H 10450 12050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L homebrew:HOLE H2
+L HOLE H2
 U 1 1 5AC351B3
 P 10700 12050
 F 0 "H2" H 10700 11920 60  0000 C CNN
@@ -2036,7 +2099,7 @@ F 3 "" H 10700 12050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L homebrew:HOLE H3
+L HOLE H3
 U 1 1 5AC352EA
 P 10950 12050
 F 0 "H3" H 10950 11920 60  0000 C CNN
@@ -2047,7 +2110,7 @@ F 3 "" H 10950 12050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L homebrew:HOLE H4
+L HOLE H4
 U 1 1 5AC353DE
 P 11200 12050
 F 0 "H4" H 11200 11920 60  0000 C CNN
@@ -2058,7 +2121,7 @@ F 3 "" H 11200 12050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR073
+L +3V3 #PWR073
 U 1 1 5ACEAF5B
 P 8300 8900
 F 0 "#PWR073" H 8300 8750 50  0001 C CNN
@@ -2069,7 +2132,7 @@ F 3 "" H 8300 8900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR074
+L +3V3 #PWR074
 U 1 1 5ACF649B
 P 18300 2400
 F 0 "#PWR074" H 18300 2250 50  0001 C CNN
@@ -2082,13 +2145,13 @@ $EndComp
 Wire Wire Line
 	18300 2400 19050 2400
 Wire Wire Line
-	1250 9300 1250 9150
+	1250 9300 1250 9100
 Wire Wire Line
-	1600 9400 1750 9400
+	1600 9400 2550 9400
 Wire Wire Line
-	1600 8750 1600 9150
+	1600 8750 1600 9400
 $Comp
-L homebrew:Teensy3.5_simple U4
+L Teensy3.5_simple U4
 U 1 1 5AB462AB
 P 20050 3100
 F 0 "U4" H 20050 5400 60  0000 C CNN
@@ -2115,72 +2178,4 @@ Text GLabel 1750 9700 3    60   Input ~ 0
 GND_DMX
 Text GLabel 900  8750 3    60   Input ~ 0
 GND_DMX
-Wire Wire Line
-	2100 4100 2100 4150
-Wire Wire Line
-	3050 4100 3050 4150
-Wire Wire Line
-	2550 4850 3500 4850
-Wire Wire Line
-	3500 4100 3650 4100
-Wire Wire Line
-	1650 4100 1750 4100
-Wire Wire Line
-	5200 4100 5200 4150
-Wire Wire Line
-	6150 4100 6150 4150
-Wire Wire Line
-	5650 4850 6600 4850
-Wire Wire Line
-	6600 4100 6750 4100
-Wire Wire Line
-	4750 4100 4850 4100
-Wire Wire Line
-	2100 5900 2100 5950
-Wire Wire Line
-	3050 5900 3050 5950
-Wire Wire Line
-	2550 6650 3500 6650
-Wire Wire Line
-	3500 5900 3650 5900
-Wire Wire Line
-	1650 5900 1750 5900
-Wire Wire Line
-	5200 5900 5200 5950
-Wire Wire Line
-	6150 5900 6150 5950
-Wire Wire Line
-	5650 6650 6600 6650
-Wire Wire Line
-	6600 5900 6750 5900
-Wire Wire Line
-	4750 5900 4850 5900
-Wire Wire Line
-	1600 9150 1600 9400
-Wire Wire Line
-	6100 8950 6450 8950
-Wire Wire Line
-	6450 8950 6800 8950
-Wire Wire Line
-	9700 9300 9850 9300
-Wire Wire Line
-	15800 11450 16000 11450
-Wire Wire Line
-	16500 11550 16700 11550
-Wire Wire Line
-	1750 9300 2550 9300
-Wire Wire Line
-	1750 9400 2550 9400
-Wire Wire Line
-	1250 9150 1250 9100
-Wire Wire Line
-	12700 6400 13050 6400
-Wire Wire Line
-	13050 6400 13300 6400
-Wire Wire Line
-	12800 6700 12700 6700
-Wire Wire Line
-	6100 9250 6450 9250
-Entry Wire Line
-	6650 7500 6750 7600
 $EndSCHEMATC
